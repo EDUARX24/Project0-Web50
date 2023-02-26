@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.navbar {
+  background-color: #eff4fd;
+}
+.navbar .boton-more {
+  background-color: #fcb900;
+}
+.navbar .boton-more:hover {
+  background-color: #00cc66;
+}
+.navbar a {
+  text-decoration: none;
+  color: #222121;
+}
+
+.seb-logo {
+  width: 45px;
+}
+
+.nav-item a {
+  color: #000;
+}
+.nav-item a:hover {
+  color: #fcb900;
+}
+
+.container-fluid .homepage img {
+  width: 350px;
+}
+.container-fluid .color-text {
+  color: #000;
+}
+
+.container-fluid .descripcion {
+  margin-top: 8rem;
+  padding-top: 30px;
+  padding-left: 150px;
+  justify-content: start;
+}
+
+.container-fluid span {
+  color: #fcb900;
+}
+.container-fluid .text-vettel {
+  color: #000;
+}
+.container-fluid .txt-rb {
+  color: #CC1C4A;
+}
+
+.container-fluid .homepage {
+  padding-top: 30px;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.container-fluid .img-seb {
+  border-radius: 15px;
+}
+
+.pagination .btn-descrip {
+  background-color: #fcb900;
+}
+.pagination .btn-descrip:hover {
+  background-color: #00cc66;
+}
+
+.fondo-card {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #182A4B 0%, #213872 20%, #CC1C4A 40%, #FACD34 60%, #eff4fd 80%);
+  background-size: 200% 200%;
+  animation: movimiento 5s linear infinite alternate;
+}
+
+@keyframes movimiento {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+@media (max-width: 540px) {
+  .container-fluid .descripcion {
+    margin-top: 1rem;
+    padding: 50px;
+  }
+  .container-fluid .pagination {
+    height: 100vh;
+    flex-wrap: wrap-reverse;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap');
+//variables propias
+$color-primario: #eff4fd;
+$color-letras: #000;
+$dark: #222121;
+$color-nav-l: #fcb900;
+$color-letra-2: #555;
+$color-botton: #212121;
+$lime: #00cc66;
+
+$red-bl : #CC1C4A;
+$fuente: 'Cormorant Garamond', serif;
+//colors para la animacion de pagination
+$red-bull1: #182A4B;
+$red-bull2: #213872;
+$red-bull3: #CC1C4A;
+$red-bull4: #FACD34;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente;
+}
+
+.navbar{
+    background-color: $color-primario;
+    .boton-more{
+        background-color: $color-nav-l;
+    }
+    .boton-more:hover{
+        background-color: $lime;
+    }
+    a{
+        text-decoration:none;
+        color: $dark;
+    }
+}
+
+.seb-logo{
+    width: 45px;
+}
+//estilos navbar
+.nav-item{
+    a{
+        color: $color-letras;
+    }
+    a:hover{
+        color: $color-nav-l;
+    }
+}
+
+//estilos card y text
+.container-fluid{
+    .homepage{
+        img{
+            width: 350px;
+        }
+    }
+    .color-text{
+        color: $color-letras;
+    }
+    
+}
+
+.container-fluid{
+    .descripcion{
+        margin-top: 8rem;
+        // background-color: $success;
+        padding-top: 30px ;
+        padding-left: 150px;
+        justify-content: start;
+    }
+}
+
+.container-fluid{
+    span{
+        color: $color-nav-l;
+    }
+    .text-vettel{
+        color: $color-letras;
+    }
+    .txt-rb{
+        color: $red-bl;
+    }
+}
+
+.container-fluid{
+    .homepage{
+        padding-top: 30px;
+        justify-content: center;
+        margin-top: 4rem;
+        // margin-right: 4rem;
+        // background-color: $primary;
+    }
+    .img-seb{
+        border-radius: 15px;
+    }
+}
+
+.pagination{
+    .btn-descrip{
+        background-color: $color-nav-l;
+    }
+    .btn-descrip:hover{
+        background-color: $lime;
+    }
+}
+
+//animacion pagination
+.fondo-card{
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom right,
+        $red-bull1 0%,
+        $red-bull2 20%,
+        $red-bull3 40%,
+        $red-bull4 60%,
+        $color-primario 80%
+    );
+    background-size: 200% 200%;
+    animation: movimiento 5s linear infinite alternate ;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+//uso de media
+
+@media (max-width: 540px) {
+    .container-fluid{
+        .descripcion{
+            margin-top: 1rem;
+            padding: 50px;
+        }
+        .pagination{
+            height: 100vh;
+            flex-wrap: wrap-reverse;
+        }
+    }
+}
