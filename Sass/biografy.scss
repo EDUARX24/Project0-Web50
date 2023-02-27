@@ -1,0 +1,39 @@
+@import 'style';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.informacion{
+    margin-top: 3PX;
+    // background-color:bisque;
+}
+
+.seb{
+    margin-top: 2px;
+}
+
+h3{
+    color: $color-nav-l;
+}
+
+p{
+    color: $color-letras;
+}
+
+.carrusel{
+    width: 98%;
+}
+.carrusel{
+    margin-top: 4px;
+    .slide img{
+        height: 98vh;
+    }
+}
+//estilos carrusel movil
+@media (max-width: 540px) {
+    .carrusel{
+        width: 150;
+    }
+}
