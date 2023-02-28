@@ -95,6 +95,21 @@
     height: 100vh;
     flex-wrap: wrap-reverse;
   }
+  .navbar {
+    background-color: #213872;
+  }
+  .navbar .boton-more {
+    background-color: #00cc66;
+  }
+  .navbar .boton-more:hover {
+    background-color: #fcb900;
+  }
+  .navbar li a {
+    color: #eff4fd;
+  }
+  .navbar .boton-more a {
+    color: #eff4fd;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

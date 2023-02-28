@@ -143,4 +143,23 @@ $red-bull4: #FACD34;
             flex-wrap: wrap-reverse;
         }
     }
+    .navbar{
+        background-color: $red-bull2;
+        .boton-more{
+            background-color: $lime;
+        }
+        .boton-more:hover{
+            background-color: $color-nav-l;
+        }
+        li{
+            a{
+                color: $color-primario;
+            }
+        }
+        .boton-more{
+            a{
+                color: $color-primario;
+            }
+        }
+    }
 }

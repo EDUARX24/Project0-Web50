@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .informacion{
     margin-top: 3PX;
     // background-color:bisque;
@@ -23,17 +24,24 @@ p{
 }
 
 .carrusel{
-    width: 98%;
+    width: 100%;
 }
 .carrusel{
     margin-top: 4px;
     .slide img{
-        height: 98vh;
+        height: 100vh;
+    }
+    h5{
+        color: $lime;
+    }
+    p{
+        color: $color-nav-l;
     }
 }
 //estilos carrusel movil
 @media (max-width: 540px) {
     .carrusel{
         width: 150;
+        display: none;
     }
 }
