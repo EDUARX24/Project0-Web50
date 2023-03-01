@@ -134,14 +134,14 @@ p {
 }
 
 .carrusel {
-  width: 100%;
+  width: 80%;
 }
 
 .carrusel {
   margin-top: 4px;
 }
 .carrusel .slide img {
-  height: 100vh;
+  height: 90vh;
 }
 .carrusel h5 {
   color: #00cc66;
