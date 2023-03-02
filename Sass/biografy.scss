@@ -22,22 +22,19 @@ h3{
 p{
     color: $color-letras;
 }
-
 .carrusel{
-    width: 80%;
-}
-.carrusel{
-    margin-top: 4px;
-    .slide img{
-        height: 90vh;
-    }
-    h5{
+    margin-top: 5px;
+    .DKseb{
         color: $lime;
     }
-    p{
-        color: $color-nav-l;
+}
+
+.container-fluid{
+    .table{
+        margin-top: 15px;
     }
 }
+
 //estilos carrusel movil
 @media (max-width: 540px) {
     .carrusel{

@@ -134,20 +134,14 @@ p {
 }
 
 .carrusel {
-  width: 80%;
+  margin-top: 5px;
 }
-
-.carrusel {
-  margin-top: 4px;
-}
-.carrusel .slide img {
-  height: 90vh;
-}
-.carrusel h5 {
+.carrusel .DKseb {
   color: #00cc66;
 }
-.carrusel p {
-  color: #fcb900;
+
+.container-fluid .table {
+  margin-top: 15px;
 }
 
 @media (max-width: 540px) {
