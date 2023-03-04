@@ -1,0 +1,62 @@
+@import 'style';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt-fts{
+    border-top: 4px solid $dark;
+    border-bottom: 4px solid $dark;
+}
+.seb-pg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-hd{
+    height: 55vh;
+    width: 100%;
+    background-image: url('https://sebastianvettel.de/wp-content/uploads/2021/03/sebastian_vettel_headerbild_facts_new03.jpg');
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    color: $color-primario;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.h2-small{
+    font-size: 1.5rem;
+}
+
+.container-fluid{
+    margin-top: 15px;
+}
+
+.icon{
+    font-size: 100px;
+    color: $color-nav-l;
+}
+
+.icon2{
+    font-size: 100px;
+    color: $lime;
+}
+
+@media (max-width: 540px) {
+    .tororoso{
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media (min-width: 992px) {
+    .seb-p{
+        margin-top: 112px;
+    }
+}
