@@ -9,12 +9,61 @@
 .txt-fts{
     border-top: 4px solid $dark;
     border-bottom: 4px solid $dark;
+    margin-top: 20px;
 }
+
+.h4-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .seb-pg{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+//espaciados a cada uno de los container-fluid
+.info-seb{
+    margin-top: 65px;
+}
+
+.tarj-seb{
+    margin-top: 25px;
+    .table{
+        margin-top: 4px;
+    }
+}
+
+.fts-kar{
+    margin-top: 25px;
+}
+
+.carrer-seb{
+    margin-top: 25px;
+}
+
+.goal-seb{
+    margin-top: 25px;
+}
+.toro-roso{
+    margin-top: 25px;
+}
+
+.rb-seb{
+    margin-top: 25px;
+}
+
+.master-pc{
+    margin-top: 25px;
+}
+
+.carrer-seb{
+    margin-top: 45px;
+}
+
+// fin estilos
+
 
 .img-hd{
     height: 55vh;
@@ -35,10 +84,6 @@
     font-size: 1.5rem;
 }
 
-.container-fluid{
-    margin-top: 15px;
-}
-
 .icon{
     font-size: 100px;
     color: $color-nav-l;
@@ -49,14 +94,40 @@
     color: $lime;
 }
 
+//estilos logros
+.logros{
+    h5{
+        color: $color-botton;
+    }
+    p{
+        color: $color-letra-2;
+    }
+}
+
+//ferrari
+.seb-ferrari{
+    margin-bottom: 15px;
+}
+
+
 @media (max-width: 540px) {
     .tororoso{
         flex-wrap: wrap-reverse;
     }
+    .info-seb{
+        margin-top: 65px;
+    }
+    
 }
 
 @media (min-width: 992px) {
     .seb-p{
         margin-top: 112px;
+    }
+    .img-master{
+    margin-top: 60px;
+    }
+    .hbd-seb{
+        margin-top: 60px;
     }
 }

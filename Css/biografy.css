@@ -119,6 +119,7 @@
 
 .informacion {
   margin-top: 3PX;
+  margin-top: 20px;
 }
 
 .seb {
@@ -145,6 +146,9 @@ p {
 }
 
 @media (max-width: 540px) {
+  .clearfix .seb {
+    margin-top: 45px;
+  }
   .carrusel {
     width: 150;
     display: none;
