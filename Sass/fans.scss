@@ -1,0 +1,110 @@
+@import 'style';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente;
+}
+
+//extend
+%space-mt{
+    margin-top:20px
+}
+
+.info-seb{
+    padding: 0;
+    margin-top:56px;
+}
+
+.img-hd{
+    height: 100vh;
+    width: 100%;
+    background-position-y: center;
+    background-image: url('https://sebastianvettel.de/wp-content/uploads/2022/12/sebastian_vettel_2022_start_fans_05.jpg');
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    color: $color-primario;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-hd{
+    .icono{
+        font-size: 100px;
+        color: $color-primario
+    }
+}
+
+a{
+    text-decoration: none;
+}
+a{
+    color:$dark
+}
+a:hover{
+    .icono{
+        color:$color-nav-l;
+    }
+}
+
+
+
+.txt-fts{
+    border-top: 4px solid $dark;
+    border-bottom: 4px solid $dark;
+    margin-top: 80px;
+}
+
+.h4-text{
+    @extend %space-mt;
+    padding-bottom: 20px;
+}
+#text-agr{
+    @extend %space-mt;
+}
+
+.text-sp{
+    h5{
+        @extend %space-mt;
+    }
+}
+
+.icono-dw{
+    font-size: 30px;
+}
+
+.icononav{
+    font-size: 30px;
+}
+
+.btn-seb{
+    margin-top: 30px;
+}
+
+.btn-seb{
+    background-color: $color-nav-l;
+    @extend %space-mt;
+    border-radius: 30px;
+}
+.btn-seb:hover{
+    background-color: $lime;
+}
+
+.esp{
+    border-top: 4px solid $dark;
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+
+@media (min-width: 992px) {
+    .card-dw{
+        width: 510px;
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+}

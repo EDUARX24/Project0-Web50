@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.navbar {
+  background-color: #eff4fd;
+}
+.navbar .boton-more {
+  background-color: #fcb900;
+}
+.navbar .boton-more:hover {
+  background-color: #00cc66;
+}
+.navbar a {
+  text-decoration: none;
+  color: #222121;
+}
+
+.seb-logo {
+  width: 45px;
+}
+
+.nav-item a {
+  color: #000;
+}
+.nav-item a:hover {
+  color: #fcb900;
+}
+
+.container-fluid .homepage img {
+  width: 350px;
+}
+.container-fluid .color-text {
+  color: #000;
+}
+
+.container-fluid .descripcion {
+  margin-top: 8rem;
+  padding-top: 30px;
+  padding-left: 150px;
+  justify-content: start;
+}
+
+.container-fluid span {
+  color: #fcb900;
+}
+.container-fluid .text-vettel {
+  color: #000;
+}
+.container-fluid .txt-rb {
+  color: #CC1C4A;
+}
+
+.container-fluid .homepage {
+  padding-top: 30px;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.container-fluid .img-seb {
+  border-radius: 15px;
+}
+
+.pagination .btn-descrip {
+  background-color: #fcb900;
+}
+.pagination .btn-descrip:hover {
+  background-color: #00cc66;
+}
+
+.fondo-card {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #182A4B 0%, #213872 20%, #CC1C4A 40%, #FACD34 60%, #eff4fd 80%);
+  background-size: 200% 200%;
+  animation: movimiento 5s linear infinite alternate;
+}
+
+@keyframes movimiento {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+@media (max-width: 540px) {
+  .container-fluid .descripcion {
+    margin-top: 1rem;
+    padding: 50px;
+  }
+  .container-fluid .pagination {
+    height: 100vh;
+    flex-wrap: wrap-reverse;
+  }
+  .navbar {
+    background-color: #213872;
+  }
+  .navbar .boton-more {
+    background-color: #00cc66;
+  }
+  .navbar .boton-more:hover {
+    background-color: #fcb900;
+  }
+  .navbar li a {
+    color: #eff4fd;
+  }
+  .navbar .boton-more a {
+    color: #eff4fd;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.btn-seb, .text-sp h5, #text-agr, .h4-text {
+  margin-top: 20px;
+}
+
+.info-seb {
+  padding: 0;
+  margin-top: 56px;
+}
+
+.img-hd {
+  height: 100vh;
+  width: 100%;
+  background-position-y: center;
+  background-image: url("https://sebastianvettel.de/wp-content/uploads/2022/12/sebastian_vettel_2022_start_fans_05.jpg");
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
+  color: #eff4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-hd .icono {
+  font-size: 100px;
+  color: #eff4fd;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: #222121;
+}
+
+a:hover .icono {
+  color: #fcb900;
+}
+
+.txt-fts {
+  border-top: 4px solid #222121;
+  border-bottom: 4px solid #222121;
+  margin-top: 80px;
+}
+
+.h4-text {
+  padding-bottom: 20px;
+}
+
+.icono-dw {
+  font-size: 30px;
+}
+
+.icononav {
+  font-size: 30px;
+}
+
+.btn-seb {
+  margin-top: 30px;
+}
+
+.btn-seb {
+  background-color: #fcb900;
+  border-radius: 30px;
+}
+
+.btn-seb:hover {
+  background-color: #00cc66;
+}
+
+.esp {
+  border-top: 4px solid #222121;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+
+@media (min-width: 992px) {
+  .card-dw {
+    width: 510px;
+    margin-top: 20px;
+    margin-left: 110px;
+  }
+}
+
+/*# sourceMappingURL=fans.css.map */
