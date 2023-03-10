@@ -31,18 +31,30 @@
   color: #fcb900;
 }
 
-.container-fluid .homepage img {
-  width: 350px;
+.texto h5 {
+  margin-bottom: 20px;
+  color: #222121;
 }
-.container-fluid .color-text {
+.texto p {
+  margin-top: 20px;
+  margin-bottom: 15px;
   color: #000;
 }
+.texto a {
+  margin-bottom: 10px;
+  color: #eff4fd;
+}
 
-.container-fluid .descripcion {
-  margin-top: 8rem;
-  padding-top: 30px;
-  padding-left: 150px;
-  justify-content: start;
+.btn-descrip {
+  background-color: #fcb900;
+}
+
+.btn-descrip:hover {
+  background-color: #00cc66;
+}
+
+.img-seb {
+  border-radius: 10px;
 }
 
 .container-fluid span {
@@ -55,26 +67,10 @@
   color: #CC1C4A;
 }
 
-.container-fluid .homepage {
-  padding-top: 30px;
-  justify-content: center;
-  margin-top: 4rem;
-}
-.container-fluid .img-seb {
-  border-radius: 15px;
-}
-
-.pagination .btn-descrip {
-  background-color: #fcb900;
-}
-.pagination .btn-descrip:hover {
-  background-color: #00cc66;
-}
-
-.fondo-card {
+.exp {
   height: 100vh;
   background-image: linear-gradient(to bottom right, #182A4B 0%, #213872 20%, #CC1C4A 40%, #FACD34 60%, #eff4fd 80%);
-  background-size: 200% 200%;
+  background-size: 300% 300%;
   animation: movimiento 5s linear infinite alternate;
 }
 
@@ -87,13 +83,15 @@
   }
 }
 @media (max-width: 540px) {
-  .container-fluid .descripcion {
-    margin-top: 1rem;
-    padding: 50px;
-  }
-  .container-fluid .pagination {
-    height: 100vh;
+  .fondo-card {
+    margin-top: 20px;
     flex-wrap: wrap-reverse;
+  }
+  .texto {
+    margin-top: 15px;
+  }
+  .card-seb {
+    margin-top: 40px;
   }
   .navbar {
     background-color: #213872;
@@ -110,6 +108,38 @@
   .navbar .boton-more a {
     color: #eff4fd;
   }
+}
+@media (min-width: 992px) {
+  .img-seb {
+    width: 350px;
+  }
+  .fondo-card {
+    margin-top: 110px;
+  }
+  .escritura {
+    margin-top: 70px;
+    padding-left: 30px;
+  }
+  .card-seb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.iconos a {
+  text-decoration: none;
+}
+
+.bi-github {
+  color: #eff4fd;
+}
+
+.bi-facebook {
+  color: #eff4fd;
+}
+
+.bi-instagram {
+  color: #eff4fd;
 }
 
 /*# sourceMappingURL=style.css.map */
